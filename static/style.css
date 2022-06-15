@@ -1,0 +1,34 @@
+
+.main-nav{
+  
+position:   absolute;
+top: 0;
+left: 0;
+right: 0;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.logoimg img{
+    width: 130px ;
+    height: 90px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar a{
+    margin: 6px;
+    font-size: 20px;
+    color: rgb(134, 85, 85);
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: rgb(39, 63, 55);
+    /* background-color: blueviolet; */
+}
