@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analyzer</title>
+    <link rel="shortcut icon" href="/css/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="logoimg">
+        <img src="/css/logo.jpg" alt="LOGO">
+    </div>
+    <div class="container">
+        <div class="container-lg">
+            <h1 style=>SENTIMENT ANALYSIS</h1>
+            <form method="get" class="form">
+                <input type="text" name="input" placeholder="Enter your post" id="input">
+                <input type="submit" id="btn" class="btn btn-primary">
+            </form>
+            <h1 class="output">
+                <%= score %>
+            </h1>
+        </div>
+    </div>
+</body>
+
+</html>

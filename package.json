@@ -1,0 +1,25 @@
+{
+  "name": "sentiment-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pruthvirajp04/Sentiment-Analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pruthvirajp04/Sentiment-Analyzer/issues"
+  },
+  "homepage": "https://github.com/pruthvirajp04/Sentiment-Analyzer#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "sentiment": "^5.0.2"
+  }
+}
