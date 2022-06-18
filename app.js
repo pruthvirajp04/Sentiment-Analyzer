@@ -10,7 +10,7 @@ app.use(express.static("templates"));
 
 app.get('/', function(req, res) {
     var q = url.parse(req.url, true);
-    var statement = q.query.input
+    var statement = q.query.inputt
     if (statement) {
         var result = sentiment.analyze(statement);
         res.render('index', { score: result.score })
